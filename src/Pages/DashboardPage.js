@@ -26,10 +26,10 @@ const DashboardPage = (props) => {
 
   return (
     <div className="card">
-      <div className="cardHeader">Chatrooms</div>
+      <div className="cardHeader">Agents | ChatApp</div>
       <div className="cardBody">
         <div className="inputGroup">
-          <label htmlFor="chatroomName">Chatroom Name</label>
+          <label htmlFor="chatroomName">Agent Name</label>
           <input
             type="text"
             name="chatroomName"
@@ -38,7 +38,7 @@ const DashboardPage = (props) => {
           />
         </div>
       </div>
-      <button>Create Chatroom</button>
+      <button>Create Agent</button>
       <div className="chatrooms">
         {chatrooms.map((chatroom) => (
           <div key={chatroom._id} className="chatroom">

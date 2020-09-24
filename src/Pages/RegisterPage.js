@@ -36,7 +36,7 @@ const RegisterPage = (props) => {
 
   return (
     <div className="card">
-      <div className="cardHeader">Registration</div>
+      <div className="cardHeader">SignUp | ChatApp</div>
       <div className="cardBody">
         <div className="inputGroup">
           <label htmlFor="name">Name</label>
@@ -68,6 +68,8 @@ const RegisterPage = (props) => {
         />
       </div>
       <button onClick={registerUser}>Register</button>
+      <br/><br/>
+        <a href="/login">Have an Account? Login</a>
     </div>
   );
 };

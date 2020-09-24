@@ -36,7 +36,7 @@ const LoginPage = (props) => {
 
   return (
     <div className="card">
-      <div className="cardHeader">Login</div>
+      <div className="cardHeader">Login | ChatApp</div>
       <div className="cardBody">
         <div className="inputGroup">
           <label htmlFor="email">Email</label>
@@ -59,6 +59,8 @@ const LoginPage = (props) => {
           />
         </div>
         <button onClick={loginUser}>Login</button>
+        <br/><br/>
+        <a href="/register">New on Chatbot? Register</a>
       </div>
     </div>
   );
